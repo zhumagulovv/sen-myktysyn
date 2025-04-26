@@ -11,8 +11,8 @@ export const MENU_ITEM = [
   },
   {
     id: 3,
-    text: "Пикир калтыруу",
-    href: "reviews",
+    text: "Расмий кайрылуу",
+    href: "bid",
   },
   {
     id: 3,
