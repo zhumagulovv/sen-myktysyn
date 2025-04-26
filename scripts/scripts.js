@@ -11,3 +11,21 @@ const menuItem = MENU_ITEM.map((item) => {
 });
 
 menuList.innerHTML += menuItem.join("");
+
+const time = 1000;
+const step = 1;
+
+function outNum(num, elem) {
+  let e = document.querySelector("#out");
+  let n = 0;
+  let t = Math.round(time / (num / step));
+  let interval = setInterval(() => {
+    n = n + step;
+    if (n == num) {
+      clearInterval(interval);
+    }
+    e.innerHTML = n + "+";
+  }, t);
+}
+
+outNum(100, "#out");
