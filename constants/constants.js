@@ -14,9 +14,4 @@ export const MENU_ITEM = [
     text: "Расмий кайрылуу",
     href: "bid",
   },
-  {
-    id: 3,
-    text: "Байланыш маалыматтары",
-    href: "contacts",
-  },
 ];

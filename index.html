@@ -49,7 +49,7 @@
       </div>
     </header>
     <main class="py-[20px]">
-      <section class="py-[30px]">
+      <section class="py-[50px]">
         <div class="container mx-auto">
           <div class="flex items-start justify-center gap-x-[50px] flex-wrap">
             <div class="w-3xl">
@@ -67,12 +67,18 @@
                 <span id="out" class="text-4xl">0</span>
               </div>
             </div>
-            <div class="min-w-[400px] min-h-[400px] bg-[green]">.....</div>
+            <img
+              class="min-w-[400px] min-h-[400px] bg-[green]"
+              src="./image/sen-myktysyn.png"
+              alt="sen-myktysyn image"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
       <section>
         <div class="container mx-auto">
+          <h2 class="text-center text-3xl py-[30px]">Биздин виделор</h2>
           <div class="grid grid-cols-3 gap-4 h-[600px]">
             <div
               class="bg-[red] col-span-1 row-span-2 flex items-center justify-center text-white text-2xl"
@@ -119,13 +125,51 @@
           </div>
         </div>
       </section>
+      <section class="py-[30px]">
+        <div class="container mx-auto">
+          <h2 class="text-center text-3xl">Кайрылуу</h2>
+          <p class="text-center py-[20px] text-xl">
+            Эгерде балаңыз ар кандай тармакта өнөрүн көрсөтүп, <br />
+            ийгилик жаратса, биз да аны колдоп, жардам көрсөтүүгө даярбыз.
+          </p>
+          <form class="grid grid-cols-4 gap-4 py-[20px]">
+            <input
+              class="col-span-2 row-span-1 border focus:outline-hidden p-[10px] rounded"
+              type="text"
+              placeholder="Балаңыздын толук аты-жөнү"
+            />
+            <input
+              class="col-span-2 row-span-1 border p-[10px] focus:outline-hidden rounded"
+              type="number"
+              placeholder="Балаңыздын жашы"
+            />
+            <textarea
+              class="col-span-4 border h-[200px] p-[10px] focus:outline-hidden rounded resize-none"
+              placeholder="Кыскача балаңыз жөнүндө маалымат"
+            ></textarea>
+            <button
+              class="col-span-2 h-[50px] rounded-lg cursor-pointer bg-gradient-to-r from-[#4158D0] via-[#C850C0] to-[#FFCC70] text-[#f4f4f4] text-xl"
+            >
+              Кетирүү
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
     <footer
       class="py-[20px] bg-[#4158D] bg-gradient-to-r from-[#4158D0] via-[#C850C0] to-[#FFCC70]"
     >
       <div class="container mx-auto">
         <div class="flex items-center justify-between flex-wrap">
-          <a href="#" class="text-[#f4f4f4] text-xl">Сен мыктысың</a>
+          <div class="flex flex-col items-start">
+            <a href="#" class="text-[#f4f4f4] text-xl">Сен мыктысың</a>
+            <a
+              href="tel: +996777777777"
+              class="text-[#f4f4f4] text-xl"
+              target="_blank"
+              >996 777 777 777</a
+            >
+          </div>
           <div class="flex items-center gap-x-[50px] flex-wrap">
             <ul
               class="flex items-center gap-x-[20px] flex-wrap"
